@@ -9,7 +9,7 @@ ____
 :white_check_mark:Также можно _загрузить свои значения параметров баланса_.
 
 Так.
-![alt tag](https://github.com/Xom9KP/Images/raw/main/Table_Example.png "Пример")
+![alt tag](https://github.com/Xom9KP/Images/raw/main/Table_Exaple.png "Пример")
 
 Для этого надо вставить ее в файл `balance.txt`.(Потом сделаем)
 
