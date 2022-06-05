@@ -1,5 +1,6 @@
 # TeamBalance v 0.1
 
+![alt tag](https://github.com/Xom9KP/Images/raw/main/Example.png "Пример")
 ____
 Это простейший **балансер команд**.
 
