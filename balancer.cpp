@@ -40,28 +40,30 @@ public:
 	// Прием		Подача		    Удар			         Блок	
 	// Довод Cкор	Сила Попадан	Сила Попадан Высота	     Высота	КПД
 	DataBase() {
-		_points["Женя"] = { 5, 2, 7, 5, 6, 5, 3, 2, 2 };
-		_points["Леша"] = { 7, 8, 8, 7, 9, 8, 8, 7, 8 };
-		_points["Ваня"] = { 7, 8, 8, 7, 8, 8, 7, 6, 8 };
-		_points["Дима"] = { 7, 8, 6, 4, 6, 3, 2, 1, 1 };
-		_points["Степа"] = { 6, 7, 7, 4, 7, 4, 4, 3, 4 };
-		_points["Алина"] = { 5, 5, 5, 4, 4, 4, 1, 0, 1 };
-		_points["Тема"] = { 6, 6, 6, 6, 6, 5, 7, 6, 8 };
-		_points["Рома"] = { 6, 7, 8, 5, 9, 6, 10, 9, 7 };
+		_points["Женя"] = { 5, 3, 7, 5, 6, 5, 3, 2, 2 };
+		_points["Леша"] = { 8, 8, 8, 8, 9, 8, 8, 7, 8 };
+		_points["Ваня"] = { 7, 9, 5, 9, 8, 8, 7, 6, 8 };
+		_points["Дима"] = { 6, 9, 6, 4, 6, 3, 2, 1, 1 };
+		_points["Степа"] = { 6, 9, 7, 4, 7, 5, 4, 3, 4 };
+		_points["Алина"] = { 6, 5, 5, 8, 4, 2, 0, 0, 0 };
+		_points["Тема З"] = { 6, 6, 6, 7, 6, 5, 7, 6, 8 };
+		_points["Рома"] = { 6, 7, 9, 5, 9, 7, 10, 9, 7 };
 		_points["Коля"] = { 6, 6, 6, 6, 7, 5, 7, 6, 5 };
 		_points["Радион"] = { 5, 6, 8, 4, 8, 5, 7, 6, 7 };
-		_points["Аня"] = { 6, 4, 4, 4, 3, 4, 0, 0, 0 };
-		_points["Ира"] = { 3, 4, 3, 5, 3, 3, 0, 0, 0 };
-		_points["Настя"] = { 5, 5, 5, 5, 4, 4, 3, 2, 1 };
-		_points["Серега"] = { 6, 5, 6, 5, 5, 5, 4, 3, 1 };
-		_points["Гоша"] = { 7, 6, 6, 7, 6, 6, 6, 5, 3 };
-		_points["Леся"] = { 6, 5, 6, 6, 4, 5, 1, 0, 1 };
-		_points["Саня"] = { 8, 7, 8, 7, 7, 7, 4, 3, 4 };
-		_points["Катя"] = { 5, 6, 6, 8, 5, 5, 2, 1, 1 };
-		_points["Саша"] = { 2, 4, 3, 4, 3, 3, 3, 2, 2 };
-		_points["Маша"] = { 4, 4, 5, 4, 3, 3, 0, 0, 0 };
-		_points["Артем"] = { 3, 4, 5, 6, 5, 5, 4, 3, 5 };
-		_points["Вадим"] = { 6, 6, 6, 7, 6, 5, 4, 3, 4 };
+		_points["Аня"] = { 6, 5, 4, 6, 2, 2, 0, 0, 0 };
+		_points["Ира"] = { 3, 4, 3, 6, 3, 2, 0, 0, 0 };
+		_points["Настя"] = { 5, 4, 5, 5, 4, 4, 2, 1, 1 };
+		_points["Серега"] = { 6, 5, 6, 5, 5, 5, 3, 2, 1 };
+		_points["Гоша"] = { 5, 6, 6, 8, 6, 6, 6, 5, 6 };
+		_points["Леся"] = { 5, 3, 8, 7, 4, 5, 1, 0, 0 };
+		_points["Саня Б"] = { 8, 7, 8, 7, 7, 7, 4, 3, 4 };
+		_points["Катя"] = { 6, 8, 6, 8, 4, 5, 1, 0, 0 };
+		_points["Саша Ф"] = { 2, 2, 3, 3, 3, 2, 3, 2, 2 };
+		_points["Маша"] = { 6, 5, 5, 5, 3, 3, 0, 0, 0 };
+		_points["Артем С"] = { 3, 4, 6, 6, 5, 5, 4, 4, 5 };
+		_points["Вадим"] = { 6, 5, 6, 7, 6, 5, 4, 3, 4 };
+		_points["Карина"] = { 3, 3, 3, 3, 2, 2, 0, 0, 0 };
+		_points["Олег"] = { 6, 5, 6, 8, 7, 7, 5, 4, 6 };
 
 		_indByName["Женя"] = 0;
 		_indByName["Леша"] = 1;
@@ -69,7 +71,7 @@ public:
 		_indByName["Дима"] = 3;
 		_indByName["Степа"] = 4;
 		_indByName["Алина"] = 5;
-		_indByName["Тема"] = 6;
+		_indByName["Тема З"] = 6;
 		_indByName["Рома"] = 7;
 		_indByName["Коля"] = 8;
 		_indByName["Радион"] = 9;
@@ -79,12 +81,14 @@ public:
 		_indByName["Серега"] = 13;
 		_indByName["Гоша"] = 14;
 		_indByName["Леся"] = 15;
-		_indByName["Саня"] = 16;
+		_indByName["Саня Б"] = 16;
 		_indByName["Катя"] = 17;
-		_indByName["Саша"] = 18;
+		_indByName["Саша Ф"] = 18;
 		_indByName["Маша"] = 19;
-		_indByName["Артем"] = 20;
+		_indByName["Артем С"] = 20;
 		_indByName["Вадим"] = 21;
+		_indByName["Карина"] = 22;
+		_indByName["Олег"] = 23;
 	}
 
 	void setPoints(const string& name, const vector<int> value) {
@@ -122,8 +126,9 @@ private:
 public:
 
 	Members(): _db(DataBase()) {
-		_numName = { "Женя", "Леша", "Ваня", "Дима", "Степа", "Алина", "Тема", "Рома", "Коля", "Радион",
-					"Аня", "Ира", "Настя", "Серега", "Гоша", "Леся", "Саня", "Катя", "Саша", "Маша", "Артем", "Вадим" };
+		_numName = { "Женя", "Леша", "Ваня", "Дима", "Степа", "Алина", "Тема З", "Рома", "Коля", "Радион", 
+					"Аня", "Ира", "Настя", "Серега", "Гоша", "Леся", "Саня Б", "Катя", "Саша Ф", "Маша", 
+					"Артем С", "Вадим", "Карина", "Олег" };
 	};
 	
 	void setPoints(const string& name, const vector<int> value) {
@@ -250,24 +255,24 @@ public:
 	}
 
 	void printTeams() {
-		auto firstPower = calcTeamPower(_teams[0]);
-		auto secondPower = calcTeamPower(_teams[1]);
-		auto thirdPower = calcTeamPower(_teams[2]);
+		//auto firstPower = calcTeamPower(_teams[0]);
+		//auto secondPower = calcTeamPower(_teams[1]);
+		//auto thirdPower = calcTeamPower(_teams[2]);
 
-		for (auto it : firstPower) {
-			cout << it << ", ";
-		}
-		cout << '\n';
+		//for (auto it : firstPower) {
+		//	cout << it << ", ";
+		//}
+		//cout << '\n';
 
-		for (auto it : secondPower) {
-			cout << it << ", ";
-		}
-		cout << '\n';
+		//for (auto it : secondPower) {
+		//	cout << it << ", ";
+		//}
+		//cout << '\n';
 
-		for (auto it : thirdPower) {
-			cout << it << ", ";
-		}
-		cout << '\n';
+		///*for (auto it : thirdPower) {
+		//	cout << it << ", ";
+		//}
+		//cout << '\n';*/
 
 		for (int i = 0; i < _cntPeopleInTeam; ++i) {
 			for (int j = 0; j < _cntTeams; ++j) {
@@ -279,9 +284,13 @@ public:
 };
 
 __team__ readVisiters(const int cntVisited) {
+	//TODO delete next two rows
 	__team__ visited(cntVisited);
-	for (auto& it : visited) {
-		cin >> it;
+	string n;
+
+	getline(cin, n);
+	for (int i = 0; i < cntVisited; ++i) {
+		getline(cin, visited[i]);
 	}
 
 	return visited;
@@ -298,6 +307,6 @@ signed main() {
 	cin >> cntVisited;
 	__team__ visited = readVisiters(cntVisited);
 
-	Balance T(visited, 3);
+	Balance T(visited, 2);
 	T.balanceTeams();
 }
